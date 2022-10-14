@@ -8,7 +8,7 @@ from {{cookiecutter.project_name}}.apps.user.forms import UserCreateForm
 
 
 class UserRegisterView(CreateView):
-    template_name = 'registration/register.html'
+    template_name = 'registration/../../../templates/registration/register.html'
     form_class = UserCreateForm
     success_url = reverse_lazy('home')
 

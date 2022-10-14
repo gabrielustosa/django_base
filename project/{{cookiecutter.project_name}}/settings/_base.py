@@ -14,7 +14,7 @@ import os
 
 from pathlib import Path
 
-from utils.environment import parse_comma_sep_str_to_list
+from project.utils.environment import parse_comma_sep_str_to_list
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent

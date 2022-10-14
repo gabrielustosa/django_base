@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
 from {{cookiecutter.project_name}}.tests.factories.user import UserFactory
-from utils.browser import make_chrome_browser
+from project.utils.browser import make_chrome_browser
 
 MAX_WAIT = 20
 
